@@ -91,8 +91,9 @@ class Tello(object):
         self.zoom = False
 
         # fast mode state
-        self.fast_mode = False   
-        
+        self.fast_mode = True   
+        print("Fast Mode Enabled")
+
         # File recieve state.
         self.file_recv = {}  # Map filenum -> protocol.DownloadedFile
 
